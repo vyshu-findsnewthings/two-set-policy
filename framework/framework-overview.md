@@ -47,6 +47,29 @@ The operational policy defines:
 ## Framework lifecycle
 
 The framework currently proposes five stages.
+## Framework workflow
+
+```mermaid
+flowchart LR
+    A[Source policy] --> B[Ingest]
+    B --> C[Decompose]
+    C --> D[Identify actors and rights holders]
+    D --> E[Identify obligations, permissions, and prohibitions]
+    E --> F[Identify owners and decision authorities]
+    F --> G[Interrogate ambiguity and interpretation risk]
+    G --> H[Draft operational policy]
+    H --> I[Validate source traceability]
+    I --> J[Check evidence, redressal, and escalation]
+    J --> K[Flag unresolved TODOs]
+    K --> L[Human review and authorised decision]
+    L --> M{Release decision}
+    M -->|Approve| N[Operational policy version]
+    M -->|Revise| G
+    M -->|Block| O[Deployment blocked]
+    N --> P[Monitoring and implementation]
+    P --> Q[Review, redressal, and change control]
+    Q --> G
+```
 
 ### 1. Ingest
 

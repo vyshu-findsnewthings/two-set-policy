@@ -9,6 +9,60 @@ Several established and emerging areas already address parts of the broader prob
 This file records the main areas of related work that should inform the development of the framework.
 
 The purpose is not to claim that Two-Set Policy replaces these fields. It is to clarify where the project overlaps with them and where its current research hypothesis may differ.
+## Positioning map
+
+```mermaid
+mindmap
+  root((Two-Set Policy))
+    Rules as Code
+      machine-consumable legislation
+      computable public rules
+      digital-ready legislation
+    Policy as Code
+      executable controls
+      compliance checks
+      access and deployment rules
+    Computational Law
+      legal knowledge representation
+      legal reasoning
+      legal informatics
+    Requirements Engineering
+      stakeholder needs
+      ambiguity analysis
+      traceability
+      validation
+    AI Governance
+      accountability
+      oversight
+      lifecycle risk management
+    Agent Governance
+      permissions
+      delegation
+      tool use
+      audit
+    Robotics and Autonomous Systems
+      safety constraints
+      operating boundaries
+      human control
+    Administrative Discretion
+      implementation judgement
+      delegated authority
+      procedural fairness
+    Sociotechnical Systems
+      institutions
+      incentives
+      affected groups
+      social context
+    Provenance and Auditability
+      source attribution
+      version history
+      decision records
+    Deliberative Governance
+      legitimacy
+      participation
+      contestability
+      dissent
+```
 
 ## Rules as Code
 

@@ -233,6 +233,8 @@ See:
 - [Framework overview](framework/framework-overview.md)
 - [Provisional source policy model](framework/provisional-policy-model.json)
 - [Provisional operational policy model](framework/provisional-operational-policy-model.json)
+- [Related work](research/related-work.md)
+- [Limitations](research/limitations.md)
 
 ## Case 001
 

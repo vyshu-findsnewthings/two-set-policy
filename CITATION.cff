@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use or discuss this project, please cite it using the metadata below."
+title: "Two-Set Policy"
+type: software
+version: 0.1.0
+date-released: 2026-07-19
+
+authors:
+  - given-names: "Vani Vyshnavi"
+    family-names: "Jupudi"
+
+abstract: >
+  Two-Set Policy is an open research framework exploring the need for
+  two complementary policy layers: a human-readable policy for
+  deliberation, interpretation, and public accountability, and a
+  traceable operational policy for implementation, monitoring, and
+  constraint of software systems and AI agents.
+
+repository-code: "https://github.com/vyshu-findsnewthings/two-set-policy"
+url: "https://github.com/vyshu-findsnewthings/two-set-policy"
+
+license: CC-BY-4.0
+
+keywords:
+  - AI governance
+  - machine-readable policy
+  - operational policy
+  - policy as code
+  - rules as code
+  - digital governance
+  - responsible AI
+  - human-in-the-loop
+  - policy implementation
+  - computational law

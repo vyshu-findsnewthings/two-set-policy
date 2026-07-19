@@ -45,6 +45,41 @@ It should define:
 - audit requirements
 - change-control authority
 - unresolved policy dependencies
+## Two-Set architecture
+
+```mermaid
+flowchart TB
+    subgraph S1[Set 1: Human-readable policy]
+        A1[Purpose and public intent]
+        A2[Rights and values]
+        A3[Obligations and institutional roles]
+        A4[Contextual and professional judgement]
+    end
+
+    subgraph T[Interpretation and validation layer]
+        B1[Policy decomposition]
+        B2[Actor and authority mapping]
+        B3[Ambiguity and vulnerability analysis]
+        B4[Human review and authorised decisions]
+        B5[Source traceability]
+    end
+
+    subgraph S2[Set 2: Operational policy]
+        C1[Permitted and required actions]
+        C2[Prohibited actions]
+        C3[Triggers, thresholds, and evidence]
+        C4[Human-review and escalation conditions]
+        C5[Monitoring, audit, and redressal]
+        C6[Unresolved TODOs and deployment status]
+    end
+
+    S1 --> T
+    T --> S2
+    S2 --> D[Software systems and AI agents]
+    D --> E[Implementation, monitoring, or enforcement]
+    E --> F[Review, redressal, and policy change control]
+    F --> T
+```
 
 ## Relationship between the two sets
 

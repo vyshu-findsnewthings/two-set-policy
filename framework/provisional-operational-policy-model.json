@@ -1,0 +1,205 @@
+{
+  "model_status": "provisional",
+  "model_version": "0.1.0",
+  "description": "Generic structured representation of an operational policy derived from an authorised human-readable source policy.",
+  "operational_policy": {
+    "operational_policy_id": "",
+    "title": "",
+    "version": "",
+    "status": "draft",
+    "jurisdiction": [],
+    "scope": [],
+    "source_policy_ids": [],
+    "effective_date": "",
+    "expiry_date": null,
+    "policy_owner_ids": [],
+    "approval_authority_ids": [],
+    "change_authority_ids": []
+  },
+  "rules": [
+    {
+      "rule_id": "",
+      "rule_title": "",
+      "source_policy_references": [],
+      "source_statement_ids": [],
+      "jurisdiction": [],
+      "scope": [],
+      "trigger": {
+        "event": "",
+        "conditions": [],
+        "required_inputs": [],
+        "required_evidence": [],
+        "minimum_evidence_standard": ""
+      },
+      "actors": {
+        "initiating_actor_ids": [],
+        "affected_actor_ids": [],
+        "system_actor_ids": [],
+        "action_owner_ids": [],
+        "decision_authority_ids": [],
+        "oversight_authority_ids": [],
+        "monitoring_owner_ids": [],
+        "redressal_owner_ids": [],
+        "appeal_authority_ids": []
+      },
+      "action": {
+        "action_type": "",
+        "action_description": "",
+        "permitted_actions": [],
+        "required_actions": [],
+        "prohibited_actions": [],
+        "minimum_necessary_action": "",
+        "completion_criteria": []
+      },
+      "human_review": {
+        "required": false,
+        "required_when": [],
+        "reviewer_role_ids": [],
+        "review_evidence": [],
+        "review_deadline": "",
+        "override_permitted": false,
+        "override_authority_ids": [],
+        "override_justification_required": true
+      },
+      "exceptions": [
+        {
+          "exception_id": "",
+          "exception_type": "",
+          "trigger_conditions": [],
+          "authorising_actor_ids": [],
+          "required_evidence": [],
+          "permitted_deviation": [],
+          "prohibited_deviation": [],
+          "duration": "",
+          "expiry_condition": "",
+          "notification_requirements": [],
+          "post_event_review_required": true
+        }
+      ],
+      "escalation": {
+        "required_when": [],
+        "escalation_owner_ids": [],
+        "escalation_authority_ids": [],
+        "escalation_deadline": "",
+        "fallback_action": "",
+        "fail_closed": true
+      },
+      "notification": {
+        "required": false,
+        "recipients": [],
+        "notification_event": "",
+        "notification_deadline": "",
+        "minimum_content": [],
+        "permitted_delay_reasons": []
+      },
+      "monitoring": {
+        "required": false,
+        "monitoring_purpose": [],
+        "parameters": [],
+        "data_sources": [],
+        "frequency": "",
+        "thresholds": [],
+        "alert_owner_ids": [],
+        "human_confirmation_required": true,
+        "automatic_sanction_prohibited": true,
+        "false_positive_review": [],
+        "false_negative_review": []
+      },
+      "redressal": {
+        "required": false,
+        "eligible_complainants": [],
+        "complaint_channels": [],
+        "grievance_owner_ids": [],
+        "acknowledgement_sla": "",
+        "resolution_sla": "",
+        "evidence_available_to_complainant": [],
+        "correction_mechanism": [],
+        "temporary_relief": [],
+        "appeal_authority_ids": [],
+        "remedies": [],
+        "closure_criteria": [],
+        "independent_review_required": false
+      },
+      "audit": {
+        "required": true,
+        "audit_events": [],
+        "evidence_to_record": [],
+        "decision_reason_required": true,
+        "actor_identity_required": true,
+        "policy_version_required": true,
+        "retention_period": "",
+        "audit_access_roles": []
+      },
+      "non_automatable": {
+        "is_non_automatable": false,
+        "reasons": [],
+        "required_human_authority_ids": [],
+        "system_role_when_non_automatable": "",
+        "prohibited_system_actions": []
+      },
+      "change_control": {
+        "change_owner_ids": [],
+        "change_authority_ids": [],
+        "change_categories": [],
+        "approval_requirements": [],
+        "impact_assessment_required": true,
+        "rollback_required": true,
+        "review_date": "",
+        "sunset_condition": ""
+      },
+      "unresolved_todos": [
+        {
+          "todo_id": "",
+          "description": "",
+          "category": "",
+          "owner_ids": [],
+          "required_decision_authority_ids": [],
+          "due_date": null,
+          "status": "open",
+          "deployment_blocking": false
+        }
+      ],
+      "deployment": {
+        "deployment_status": "blocked",
+        "deployment_blocked": true,
+        "blocking_reasons": [],
+        "permitted_environments": [],
+        "prohibited_environments": [],
+        "pre_deployment_tests": [],
+        "approval_evidence": [],
+        "last_reviewed_at": null
+      }
+    }
+  ],
+  "global_prohibitions": [
+    {
+      "prohibition_id": "",
+      "source_policy_references": [],
+      "prohibited_actor_ids": [],
+      "prohibited_action": "",
+      "conditions": [],
+      "exceptions": [],
+      "enforcement_owner_ids": [],
+      "violation_response": [],
+      "redressal_references": []
+    }
+  ],
+  "global_monitoring": {
+    "policy_conformance_checks": [],
+    "authority_misuse_checks": [],
+    "unresolved_todo_checks": [],
+    "policy_version_drift_checks": [],
+    "legal_drift_checks": [],
+    "interpretation_drift_checks": [],
+    "outcome_drift_checks": []
+  },
+  "traceability": {
+    "source_policy_to_rule": [],
+    "source_statement_to_rule": [],
+    "rule_to_actor": [],
+    "rule_to_monitoring": [],
+    "rule_to_redressal": [],
+    "rule_to_change_control": [],
+    "rule_to_deployment_decision": []
+  }
+}

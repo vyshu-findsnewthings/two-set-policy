@@ -1,0 +1,217 @@
+{
+  "model_status": "provisional",
+  "model_version": "0.1.0",
+  "description": "Generic structured representation of a human-readable source policy.",
+  "policy_document": {
+    "policy_id": "",
+    "title": "",
+    "short_title": "",
+    "version": "",
+    "publication_date": "",
+    "effective_date": "",
+    "expiry_date": null,
+    "jurisdiction": [],
+    "legal_status": "",
+    "policy_owner": [],
+    "source_url": "",
+    "source_files": [],
+    "language": [],
+    "document_type": "",
+    "supersedes": [],
+    "superseded_by": []
+  },
+  "policy_context": {
+    "purpose": [],
+    "objectives": [],
+    "scope": {
+      "included": [],
+      "excluded": [],
+      "geographic_scope": [],
+      "institutional_scope": [],
+      "technical_scope": []
+    },
+    "stated_outcomes": [],
+    "policy_principles": [],
+    "legal_basis": [],
+    "related_policies": [],
+    "related_standards": []
+  },
+  "actors": [
+    {
+      "actor_id": "",
+      "name": "",
+      "actor_type": "",
+      "jurisdiction": [],
+      "roles": [],
+      "responsibilities": [],
+      "authority_basis": [],
+      "rights": [],
+      "obligations": [],
+      "limitations": []
+    }
+  ],
+  "rights_holders": [
+    {
+      "group_id": "",
+      "name": "",
+      "rights": [],
+      "protections": [],
+      "redressal_entitlements": []
+    }
+  ],
+  "duty_bearers": [
+    {
+      "actor_id": "",
+      "duties": [],
+      "accountability_mechanisms": []
+    }
+  ],
+  "policy_statements": [
+    {
+      "statement_id": "",
+      "source_reference": "",
+      "source_text": "",
+      "statement_type": "",
+      "subject_actor_ids": [],
+      "affected_group_ids": [],
+      "action": "",
+      "object": "",
+      "conditions": [],
+      "exceptions": [],
+      "evidence_requirements": [],
+      "monitoring_requirements": [],
+      "redressal_references": [],
+      "interpretation_required": false,
+      "interpretation_notes": []
+    }
+  ],
+  "obligations": [
+    {
+      "obligation_id": "",
+      "source_statement_ids": [],
+      "duty_bearer_ids": [],
+      "required_action": "",
+      "trigger": "",
+      "conditions": [],
+      "deadline": "",
+      "evidence": [],
+      "exceptions": [],
+      "monitoring": [],
+      "redressal": []
+    }
+  ],
+  "permissions": [
+    {
+      "permission_id": "",
+      "source_statement_ids": [],
+      "actor_ids": [],
+      "permitted_action": "",
+      "conditions": [],
+      "limits": [],
+      "evidence": [],
+      "expiry": ""
+    }
+  ],
+  "prohibitions": [
+    {
+      "prohibition_id": "",
+      "source_statement_ids": [],
+      "actor_ids": [],
+      "prohibited_action": "",
+      "conditions": [],
+      "exceptions": [],
+      "enforcement_owner": [],
+      "redressal": []
+    }
+  ],
+  "exceptions": [
+    {
+      "exception_id": "",
+      "source_statement_ids": [],
+      "applies_to": [],
+      "trigger": "",
+      "authorising_actor_ids": [],
+      "required_evidence": [],
+      "duration": "",
+      "post_event_review": "",
+      "notification_requirements": [],
+      "redressal": []
+    }
+  ],
+  "monitoring": [
+    {
+      "monitoring_id": "",
+      "source_statement_ids": [],
+      "monitoring_owner_ids": [],
+      "purpose": "",
+      "parameters": [],
+      "data_sources": [],
+      "frequency": "",
+      "thresholds": [],
+      "human_review_required": false,
+      "notification_requirements": [],
+      "redressal": []
+    }
+  ],
+  "redressal": [
+    {
+      "redressal_id": "",
+      "source_statement_ids": [],
+      "grievance_owner_ids": [],
+      "eligible_complainants": [],
+      "complaint_channels": [],
+      "acknowledgement_sla": "",
+      "resolution_sla": "",
+      "evidence_available_to_complainant": [],
+      "correction_mechanism": [],
+      "appeal_authority_ids": [],
+      "remedies": [],
+      "closure_criteria": []
+    }
+  ],
+  "change_control": {
+    "change_authority_ids": [],
+    "change_categories": [],
+    "approval_requirements": [],
+    "effective_date_rules": [],
+    "versioning_rules": [],
+    "rollback_requirements": [],
+    "review_frequency": ""
+  },
+  "interpretation_vulnerabilities": [
+    {
+      "vulnerability_id": "",
+      "source_statement_ids": [],
+      "category": "",
+      "description": "",
+      "possible_machine_assumption": "",
+      "affected_actors": [],
+      "rights_impact": [],
+      "severity": "",
+      "required_fix": [],
+      "deployment_blocking": false
+    }
+  ],
+  "unresolved_questions": [
+    {
+      "question_id": "",
+      "source_statement_ids": [],
+      "category": "",
+      "question": "",
+      "required_decision_authority_ids": [],
+      "assigned_owner_ids": [],
+      "status": "open",
+      "deployment_blocking": false,
+      "resolution_due_date": null
+    }
+  ],
+  "traceability": {
+    "source_to_statement": [],
+    "statement_to_obligation": [],
+    "statement_to_permission": [],
+    "statement_to_prohibition": [],
+    "statement_to_exception": [],
+    "statement_to_monitoring": [],
+    "statement_to_redressal": []
+  }
+}

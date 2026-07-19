@@ -2,6 +2,8 @@
 
 An open research framework for creating a traceable operational policy layer for software systems and AI agents while preserving human policy, institutional authority, redressal, and democratic oversight.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21441000.svg)](https://doi.org/10.5281/zenodo.21441000)
+
 ## Origin of the idea
 
 The idea for Two-Set Policy emerged while I was working on a paper for the International Sociological Association.

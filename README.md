@@ -92,6 +92,41 @@ The hypothesis explored here is that an additional governance artefact may be re
 The urgency therefore does not arise only because AI systems are becoming more capable.
 
 It arises because systems are increasingly being permitted to act, while many of the policies intended to govern those actions were written primarily for human interpretation.
+## Why-now system context
+
+```mermaid
+flowchart TB
+    A[Human-written policies] --> B[Software and AI systems interpret policy]
+
+    B --> C[Agentic AI systems]
+    B --> D[ADAS and automated vehicles]
+    B --> E[Surgical robotic assistants]
+    B --> F[Industrial and collaborative robots]
+    B --> G[Agricultural robots]
+    B --> H[Humanoid and service robots]
+
+    C --> I[Digital or physical action]
+    D --> I
+    E --> I
+    F --> I
+    G --> I
+    H --> I
+
+    I --> J{Is the policy operationally explicit?}
+
+    J -->|No| K[Interpretation vulnerability]
+    K --> L[Unauthorised assumptions]
+    K --> M[Incorrect thresholds]
+    K --> N[Missing human authority]
+    K --> O[Missing escalation or redressal]
+
+    J -->|Yes| P[Traceable operational policy]
+
+    P --> Q[Permissions and prohibitions]
+    P --> R[Evidence and decision authority]
+    P --> S[Human review and escalation]
+    P --> T[Monitoring, audit, and redressal]
+```
 
 ## Research hypothesis
 

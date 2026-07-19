@@ -3,6 +3,7 @@ message: "If you use or discuss this project, please cite it using the metadata 
 title: "Two-Set Policy"
 type: software
 version: 0.1.0
+doi: 10.5281/zenodo.21441000
 date-released: 2026-07-19
 
 authors:
